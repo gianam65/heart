@@ -1,0 +1,60 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+  margin: 0;
+
+  /* background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); */
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dg.main,
+.dg.main .close-button {
+  width: 270px !important;
+  display: none;
+}
+
+.dg li.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  height: auto !important;
+
+  fill: white;
+  background-position: 6px 49% !important;
+}
+
+.dg li.title>svg {
+  width: 180px;
+  margin-left: 8px;
+}
+
+canvas {
+    width: calc(100% - 50px) !important;
+    height: calc(100% - 50px) !important;
+}
+
+.gift {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.gift svg {
+    width: 100%;
+    height: 100%;
+}
