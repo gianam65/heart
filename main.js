@@ -194,11 +194,11 @@ window.addEventListener("load", (event) => {
   render();
 
   const colors = [
-    "#e03776",
-    "#8f3e98",
-    "#4687bf",
-    "#3bab6f",
-    "#f9c25e",
+    "#e74c3c",
+    "#fd79a8",
+    "#ff7675",
+    "#d63031",
+    "#ff6b81",
     "#f47274",
   ];
   const SVG_NS = "http://www.w3.org/2000/svg";
