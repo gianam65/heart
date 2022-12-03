@@ -41,7 +41,7 @@ body {
 }
 
 canvas {
-    width: calc(100% - 50px) !important;
+    width: 100% !important;
     height: calc(100% - 50px) !important;
 }
 
